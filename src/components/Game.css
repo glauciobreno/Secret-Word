@@ -43,3 +43,7 @@
     text-align: center;
     margin-right: 1em;
 }
+
+.letterContainer p {
+    margin-right: 0.5em;
+}

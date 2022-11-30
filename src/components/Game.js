@@ -44,7 +44,7 @@ const Game = ({
           )}
         </div>
         <div className="letterContainer">
-          <p>tente adivinhar uma letra da palavra : </p>
+          <p>Escolha uma letra: </p>
           <form onSubmit={handleSubmit}>
             <input type="text" 
             name="letter"  
