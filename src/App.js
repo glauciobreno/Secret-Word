@@ -122,12 +122,12 @@ function App() {
 
     // condição de vitoria 
 
-      if(guessedLetters.length === uniqueLetters.length && gameStage === stages[1].name){
-        setScore((actualScore) => actualScore += 100) 
-          // inicar novo game
-          startGame();
-      }
-  }, [guessedLetters, letters, startGame])
+    if(guessedLetters.length === uniqueLetters.length && gameStage === stages[1].name){
+      setScore((actualScore) => actualScore += 100)
+      setGuesses(guessesQty)
+      startGame();   
+  }
+}, [guessedLetters, letters, startGame])
 
   // reinciar jogo 
 

@@ -51,7 +51,8 @@ const Game = ({
             maxLength="1" 
             required onChange={(e) => setLetter(e.target.value)}
             value={letter}
-            ref={letterInputRef}/>
+            ref={letterInputRef} 
+            autoComplete="off"/>
             <button>Jogar</button>
           </form>
         </div>
